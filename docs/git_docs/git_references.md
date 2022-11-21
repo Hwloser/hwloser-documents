@@ -26,6 +26,4 @@ $ git update-ref refs/heads/master 1a410efbd13591db07496601ebc7a059dd55cfe9
 
 现在，git database中存在的格式如下：
 
-![data_model](assets/data-model-4.png)
-
-[](https://upload.wikimedia.org/wikipedia/commons/5/56/Tiger.50.jpg)
+![data_model](../assets/data-model-4.png)
