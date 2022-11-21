@@ -8,6 +8,8 @@
 
 可以在`e.g. .git/refs/heads/master`中创建一个新的引用来保存我们最后的commit。
 
+---
+
 **FOR EXAMPLE**
 
 ```bash
