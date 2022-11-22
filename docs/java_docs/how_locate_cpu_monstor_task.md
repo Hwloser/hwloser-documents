@@ -56,3 +56,15 @@ jstack -l process_id | grep -C <这里输入你想要显示的行数> t_id
 1. 死循环
 2. GC严重（这个请看jstat方面）
 3. 等
+
+## 案例
+
+- disruptor占用大量的CPU问题
+
+![](../assets/disruptor_jstack.png)
+
+由上图我们可以看到disruptor，BatchProcess相关的线程，在进行等待上游数据中进行了自旋等待，那么这样就会对CPU的性能有所消耗.
+
+- 解决方案
+
+目前的性能消耗不高，等之后其他的任务部署之后，消耗还有所继续的话，就调整一下等待策略，避免不停的自旋导致CPU性能浪费。
