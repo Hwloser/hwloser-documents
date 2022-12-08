@@ -3,4 +3,4 @@
 - Linux
   - [控制组CGroup](linux_docs/cgroup.md)
 - ClickHouse
-  - [编译clickhoust<mac M1 chip>](clickHouse/building/macos_m1.md)
+  - [编译clickhouse<mac M1 chip>](clickHouse/building/macos_m1.md)
